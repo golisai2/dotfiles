@@ -1,0 +1,17 @@
+export PATH="~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/local/git/bin:/Developer/usr/bin"
+export MANPATH="$MANPATH:/usr/local/git/share/man"
+
+function myvmware-interfaces-down() {
+	sudo ifconfig vmnet8 down;
+	sudo ifconfig vmnet1 down;
+} 
+
+
+
+export UNISONLOCALHOSTNAME=goli-mbp
+
+export MYGIT_CONFIGS=~/git/configs
+export MYHOST=goli-mbp
+export MYOS=OSX
+
+echo "$HOME/.bashrc.$MYHOST loaded"
