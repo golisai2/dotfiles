@@ -14,5 +14,3 @@ export UNISONLOCALHOSTNAME=goli-mbp
 export MYGIT_CONFIGS=~/git/configs
 export MYHOST=goli-mbp
 export MYOS=OSX
-
-echo "$HOME/.bashrc.$MYHOST loaded"

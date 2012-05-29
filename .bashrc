@@ -14,7 +14,7 @@ export MYHOST=${MYHOST:?"MYHOST not defined....."}
 export MYOS=${MYOS:?"MYOS not defined....."}
 
 export PS1='[\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]]\$ '
-export PATH=$PATH:$MYGIT_CONFIGS/bin
+export PATH=$PATH:$HOME/bin
 export TERM=xterm-256color
 # don't put duplicate lines in the history. See bash(1) for more options
 export HISTCONTROL=ignoredups
