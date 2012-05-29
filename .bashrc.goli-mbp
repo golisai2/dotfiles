@@ -1,3 +1,4 @@
+#-*-shell-script-*-
 export PATH="~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/local/git/bin:/Developer/usr/bin"
 export MANPATH="$MANPATH:/usr/local/git/share/man"
 
